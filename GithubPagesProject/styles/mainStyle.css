@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+@import "tailwindcss-primeui";
+@import 'primeicons/primeicons.css';
+
+
+body {
+  font-family: 'Passero One', sans-serif;
+}
+
+.Title {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.my-credits-divider.p-divider-horizontal::before {
+  border-top-left-radius: 5000%;
+  border-top-right-radius: 5000%;
+  border-top-width: 3px;        /* Dicke */
+  /* optional auch Stil/Farbe anpassen */
+  /* border-top-style: solid; */
+  /* border-top-color: #38bdf8; */
+}
+
+.my-credits-divider .p-divider-content {
+  background-color: #c5f6f8;
+  border-radius: 10%;
+}
