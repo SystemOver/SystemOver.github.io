@@ -26,3 +26,9 @@ body {
   background-color: #c5f6f8;
   border-radius: 10%;
 }
+
+@layer base {
+  a {
+    @apply text-green-500 hover:text-green-200;
+  }
+}
