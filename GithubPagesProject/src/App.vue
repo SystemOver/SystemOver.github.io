@@ -39,7 +39,7 @@ const items = ref([
         <router-link v-if="item.route" v-slot="{ href, navigate }" :to="item.route" custom>
           <a v-ripple :href="href" v-bind="props.action" @click="navigate">
             <span :class="item.icon" />
-            <span>{{ item.label }}</span>
+            <span class="hue-spin-hover">{{ item.label }}</span>
           </a>
         </router-link>
         <a v-else v-ripple :href="item.url" :target="item.target" v-bind="props.action">
@@ -55,8 +55,7 @@ const items = ref([
 </template>
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Pacifico&family=Passero+One&family=Smooch+Sans:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Nabla&family=Pacifico&family=Passero+One&family=Smooch+Sans:wght@100..900&display=swap');
 .glass-navbar {
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);

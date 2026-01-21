@@ -1,0 +1,37 @@
+[
+  {
+    "id": "Obs_Studio",
+    "label": "Obs Studio",
+    "type": "Streaming",
+    "detail": "<p> <i>OBS Studio is a free and open-source application for screencasting and live streaming. Written in C/C++ and built with Qt, OBS Studio provides real-time capture, scene composition, recording, encoding, and broadcasting via Real-Time Messaging Protocol (RTMP), HLS, SRT, RIST or WebRTC. </i> <br> <br> That was the official definition of the Software according to Wikipedia, or even more simply put: This is the Main Software that does the \"Streaming\" part of all this. It is completely free and if you want to use it you can download it <a href=\"https://obsproject.com/de/download\">here</a></p>",
+    "logoSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/OBS_Studio_Logo.svg/1280px-OBS_Studio_Logo.svg.png"
+  },
+  {
+    "id": "Streamer_bot",
+    "label": "Streamer.bot",
+    "type": "Streaming",
+    "detail": "<p>Streamer.bot is a completely free software that enables you, the streamer, to handle a insane amount of automation within one program. This can range from a simple effekt on screen that happens on a regular intervall up to stuff like, when a chatter redeems a specific channel point reward, create a screenshot of the stream, edit it via a custom c# script and post it on social media. It also is a great hub for many popular integrations like a heartrate monitor for relevant streams and so on. It can be quite confusing at first, but due to their new darkmode update it should be easier for new users to start off creating their own custom automations within minutes. Here is a link to their <a href=\"https://streamer.bot/\">software</a></p>",
+    "logoSource": "https://imgs.search.brave.com/o2gPxsOahOdKJDc_Yy-TOwpvzj1Srq3R6GqVGzXy4Ik/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMtY2RuLmp0dm53/Lm5ldC90ZWFtLWFz/c2V0cy9zdHJlYW1l/cmRvdGJvdC00Zjlm/OWRlMjllODM0Nzll/ODg4N2ZkODFjYjdi/MGYxYS5wbmc"
+  },
+  {
+    "id": "Speaker_bot",
+    "label": "Speaker.bot",
+    "type": "Streaming",
+    "detail": "<p>The name should already give it away but for the uninitiated: This is the software that i use to to TTS (Text-to-Speech) on my livestream, so basically it is just a glorified audioplayer. The Reason why i use it though is because it is from the makers of Streamer.bot (or at least i think so) and therefore has a great integration into Streamer.bot. So yes, you can do it your own way and use something like streamelements tts donations, but you probably wont have the same amount of customizability as by using speaker.bot.</p>",
+    "logoSource": "https://speaker.bot/logo.svg"
+  },
+  {
+    "id": "VSDCraft",
+    "label": "VSD Craft",
+    "type": "NonStreaming",
+    "detail": "<p>Since the price of a modern Elgato Streaming deck has risen to the same value as my entire Existence, i have bought a \"Fake One\", which funnily enough is really great and has features that the standed mini streaming deck, completely lacks. <br> \"VSD Craft\" is the Software that powers the Stream \"Dock\" that i am using and at first getting the hang of it is kinda confusing and looks quite scetchy but you will quickly realize just how much user-made content exists, to the point that making my own plugins seem pointless.<br> I wont provide a download link simply because i am not sure as to how \"Safe\" this is and so on.</p>",
+    "logoSource": "https://www.vsdinside.com/cdn/shop/files/VSD_LOGO.png?v=1735002768&width=760"
+  },
+  {
+    "id":"Obsidian",
+    "label":"Obsidian",
+    "type":"NonStreaming",
+    "detail":"<p>Obsidian is a Tool that i use for many things, like Notetaking during class, creating Databases of media that i like but also collecting thoughts on Content Ideas. It uses Markdown, making it quite fast and easy to type in once the syntax is memorized. Its Free, and yes technically the sync options costs money, but by using one of the like 7 billion community plugins that exist nowadays you can easily sync it up to githobe, google drive, etc. If you want to give it a try, download it <a href='https://obsidian.md/download'>here</a></p>",
+    "logoSource":"https://imgs.search.brave.com/rPOK_X9Vqt6LpvaT8Q9wsJvCJiDFkPI6GbAB8TLAADE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9vYnNp/ZGlhbi5tZC9pbWFn/ZXMvb2JzaWRpYW4t/bG9nby1ncmFkaWVu/dC5zdmc"
+  }
+]

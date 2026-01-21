@@ -1,22 +1,44 @@
 @import 'tailwindcss';
-@import "tailwindcss-primeui";
+@import 'tailwindcss-primeui';
 @import 'primeicons/primeicons.css';
 
-
 body {
-  font-family: 'Passero One', sans-serif;
+    font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .Title {
-  font-family: 'Pacifico', cursive;
+   font-family: "Passero One", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.hue-spin-hover {
+  animation-play-state: paused; /* Paused by default */
+  animation-name: hue-spin; /* Keyframes defined below */
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.hue-spin-hover:hover {
+  animation-play-state: running;
+  @apply scale-105 text-shadow-[15px_15px_15px_theme(colors.green.500/0.3)];
+}
+
+@keyframes hue-spin {
+  0% { filter: hue-rotate(0deg); transform: rotateZ(0deg);}
+  25% {filter: hue-rotate(90deg); transform: rotateZ(5deg);}
+  75% {filter: hue-rotate(270deg); transform: rotateZ(-5deg);}
+  100% { filter: hue-rotate(360deg);  transform: rotateZ(0deg);}
 }
 
 .my-credits-divider.p-divider-horizontal::before {
   border-top-left-radius: 5000%;
   border-top-right-radius: 5000%;
-  border-top-width: 3px;        /* Dicke */
+  border-top-width: 3px; /* Dicke */
   /* optional auch Stil/Farbe anpassen */
   /* border-top-style: solid; */
   /* border-top-color: #38bdf8; */
@@ -26,6 +48,8 @@ body {
   background-color: #c5f6f8;
   border-radius: 10%;
 }
+
+
 
 @layer base {
   a {

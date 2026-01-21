@@ -7,8 +7,8 @@ import { Card, Divider } from 'primevue'
     <div class="col-span-2 col-start-2">
       <Card>
         <template #content>
-          <p class="justify-self-center">welcome to:</p>
-          <h1 class="text-6xl justify-self-center Title mb-8 mt-2">The System Page</h1>
+          <p class="justify-self-center text-gray-500">welcome to:</p>
+          <h1 class="text-6xl justify-self-center text-shadow-lg text-shadow-green-500 Title mb-8 mt-2 hue-spin-hover ">The System Page</h1>
           <Divider class="my-credits-divider" />
           <div>
             <img src="../img/pogchamp.png" alt="testimage" class="float-right max-w-1/3" />
