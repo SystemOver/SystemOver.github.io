@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import { Divider, Accordion, AccordionPanel, AccordionHeader, AccordionContent } from 'primevue'
 import { ref } from 'vue'
+import QAData from '@/data/QA.json?url'
 
 const Questions = ref([{ Question: '', Answer: '' }])
 
-fetch('/src/data/QA.json')
+fetch(QAData)
   .then((resonse) => resonse.json())
   .then((data) => (Questions.value = data))
 </script>

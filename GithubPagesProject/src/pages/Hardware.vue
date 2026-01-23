@@ -4,6 +4,7 @@ import { Card, Divider, Listbox } from 'primevue'
 import { useToast } from 'primevue/usetoast'
 import Toast from 'primevue/toast'
 import { ref } from 'vue'
+import HardwareData from '@/data/HardwareData.json?url'
 
 const toast = useToast()
 
@@ -12,7 +13,7 @@ const StreamingHardwareData = ref([
   { id: ' ', label: '  ', type: '', detail: '  ', logoSource: '   ' },
 ])
 
-fetch('/src/data/HardwareData.json')
+fetch(HardwareData)
   .then((response) => response.json())
   .then((data) => (StreamingHardwareData.value = data))
 
