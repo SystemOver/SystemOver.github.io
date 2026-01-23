@@ -8,7 +8,11 @@ import { Card, Divider } from 'primevue'
       <Card>
         <template #content>
           <p class="justify-self-center text-gray-500">welcome to:</p>
-          <h1 class="text-6xl justify-self-center text-shadow-lg text-shadow-green-500 Title mb-8 mt-2 hue-spin-hover ">The System Page</h1>
+          <h1
+            class="text-6xl justify-self-center text-shadow-lg text-shadow-green-500 Title mb-8 mt-2 hue-spin-hover"
+          >
+            The System Page
+          </h1>
           <Divider class="my-credits-divider" />
           <div>
             <img src="../img/pogchamp.png" alt="testimage" class="float-right max-w-1/3" />
@@ -27,29 +31,12 @@ import { Card, Divider } from 'primevue'
           </div>
           <Divider class="my-credits-divider" />
           <div>
-            <div class="twitch-card max-w-1/2 min-w-1/2 float-left pr-8">
-              <div class="twitch-video">
-                <iframe
-                  src="https://player.twitch.tv/?channel=system_over&parent=localhost&parent=systemover.github.io"
-                  allowfullscreen
-                  width="100%"
-                 
-                  frameborder="0"
-                ></iframe>
-              </div>
-              <div class="twitch-info">
-                <div class="twitch-title">system_over on Twitch</div>
-                <span>system</span>
-              </div>
-            </div>
             <h1 class="text-3xl Title">Am i live right now?</h1>
             <p>
               Honestly, i don't know, because i am too dumb to figure out when i am live or not.
-              However in the rare occassion that i am, here is a livestream player of the current
-              stream. <br /><br />But i would still recommend going on the offical
+              <br /><br />However in the rare occasion that i am, i recommend going on the offical
               <a style="color: fuchsia" href="https://www.twitch.tv/system_over">Twitch</a> Website
-              to watch, since i will probably get more views and also it will probably work better
-              💀💀
+              to watch, since i will probably need the views.💀💀
             </p>
             <!-- Add a placeholder for the Twitch embed -->
           </div>
