@@ -1,3 +1,4 @@
+import About from '@/pages/About.vue'
 import Hardware from '@/pages/Hardware.vue'
 import Homepage from '@/pages/Homepage.vue'
 import Software from '@/pages/Software.vue'
@@ -9,7 +10,8 @@ const routes = [
   {path: "/", name:"home", component:Homepage, props:true},
   {path:"/test", name:"test", component:Testpage, props:true},
   {path:"/nerdzone/software", name:"software", component:Software, props:true},
-  {path:"/nerdzone/hardware", name:"hardware", component:Hardware, props:true}
+  {path:"/nerdzone/hardware", name:"hardware", component:Hardware, props:true},
+  {path:"/me",name:"me", component:About,props:true}
 ]
 
 

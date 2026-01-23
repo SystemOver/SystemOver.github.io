@@ -4,62 +4,48 @@
    "label": "AMD Ryzen 7 9700X",
    "type": "NonStreaming",
    "detail": "<p> <i>The AMD Ryzen 7 9700X is an 8-core 16-thread beast on Zen 5 architecture, clocking 3.8 GHz base up to 5.5 GHz boost with 32MB L3 cache and just 65W TDP. Built on 4nm, it crushes gaming, streaming and multitasking while sipping power and supporting DDR5-5600 and PCIe 5.0. </i> <br> <br> That was basically the rundown from AMD's site and reviews, or more simply: This CPU handles everything i throw at it without breaking a sweat, from encoding 1080p60 streams to running OBS with 50+ sources and browser tabs galore. You can grab it <a href=\"https://www.amd.com/en/products/processors/desktops/ryzen/9000-series/amd-ryzen-7-9700x.html\">here</a></p>",
-   "logoSource": "https://www.amd.com/system/files/styles/1200_2x/public/2024-08/zen5-r7-9700x-1260x709.png"
+   "logoSource": "https://www.amd.com/content/dam/code/images/header/amd-header-logo.svg"
  },
  {
    "id": "Kingston_Fury_RAM",
    "label": "Kingston Fury DDR5 32GB 6000MT/s",
    "type": "NonStreaming",
    "detail": "<p>Kingston Fury Beast DDR5 kit with 2x16GB sticks at 6000MT/s CL30, 1.35V, on-die ECC for rock-solid stability even when overclocked. Dual-channel beast with Intel XMP 3.0 and AMD EXPO support for easy speed tweaks. <br> <br> Straight from Kingston's specs, but simply put: This RAM lets me run OBS scenes, multiple games in background and editing software without a single stutter. Super fast load times and future-proof for DDR5. Check it out <a href=\"https://www.kingston.com/en/memory/gaming/kingston-fury-beast-ddr5-memory\">here</a></p>",
-   "logoSource": "https://www.kingston.com/dassets/images/product/kingston-fury-beast-ddr5-hero.png"
- },
- {
-   "id": "NVMe_Storage",
-   "label": "2TB NVMe SSD",
-   "type": "NonStreaming",
-   "detail": "<p>A screaming-fast PCIe Gen4 NVMe M.2 2280 SSD with up to 7000MB/s reads and 5000MB/s writes, plenty of space for games, OBS recordings, clips and edits. <br> <br> Typical high-end 2TB drive specs for 2026 builds, or even simpler: No more waiting for footage to load or games to install - everything's instant, and 2TB means i never run out during marathon streams. Download options all over the place like <a href=\"https://www.samsung.com/us/computing/memory-storage/solid-state-drives/990-pro-w-heatsink-2tb-nvme-m-2-internal-solid-state-drive-mz-v9p2t0cw/\">Samsung 990 Pro</a> or similar.</p>",
-   "logoSource": "https://images.samsung.com/is/image/samsung/p6_global/MZ-V9P2T0BW-SSD-990PRO-2TB-BLACK-$50-$PC-Angle-344229772?$FB_TYPE_A_Medium$"
+   "logoSource": "https://www.kingston.com/Themes/KingstonRWD/images/logos/kingston-logo-blkText.svg"
  },
  {
    "id": "RTX_5060Ti",
    "label": "NVIDIA GeForce RTX 5060 Ti",
    "type": "NonStreaming",
    "detail": "<p>Blackwell architecture GPU with 16GB GDDR7, 180W TDP, DLSS 4 Multi-Frame Gen for insane 1440p/4K gaming, ray tracing and AI encoding. PCIe 5.0 x8, crushes NVENC streaming. <br> <br> According to NVIDIA and early reviews, or put simply: Handles maxed-out games at 1440p while OBS encodes buttery smooth with zero frame drops. Game changer for streamers. More info <a href=\"https://www.nvidia.com/en-us/geforce/graphics-cards/50-series/rtx-5060-family/\">here</a></p>",
-   "logoSource": "https://www.nvidia.com/content/dam/en-zz/Solve/CoE/GPU-Accelerated-Applications/RnD/RTX-5060/family.jpg"
+   "logoSource": "https://cdn.worldvectorlogo.com/logos/nvidia-image-logo.svg"
  },
  {
    "id": "Sony_a5000",
    "label": "Sony a5000",
    "type": "Streaming",
    "detail": "<p>20MP APS-C CMOS sensor, 1080p60 video, flip-out 3\" LCD, Sony E-mount hybrid camera weighing just 212g. ISO 100-16000, 25-point AF, 1/4000s shutter. <br> <br> Thats the spec sheet from DXOMark/Wiki, but for the uninitiated: Perfect lightweight cam for facecam overlay - sharp, flip screen for angles, and connects via USB/HDMI clean to OBS. Reliable workhorse. Grab one used <a href=\"https://www.sony.com/electronics/interchangeable-lens-cameras/ilce-5000-body-kit\">here</a></p>",
-   "logoSource": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Sony_%CE%B15000_front_and_back_ILCE-5000.jpg/800px-Sony_%CE%B1 5000_front_and_back_ILCE-5000.jpg"
+   "logoSource": "https://m.media-amazon.com/images/I/71BAdnm5CjL._AC_SX300_SY300_QL70_FMwebp_.jpg"
  },
  {
-   "id": "AT2020_mic",
-   "label": "Audio-Technica AT2020",
+   "id": "ATr2100x_mic",
+   "label": "Audio-Technica ATR2100X",
    "type": "Streaming",
-   "detail": "<p>Cardioid condenser mic, 20Hz-20kHz response, 144dB SPL handling, XLR, 48V phantom, gold-sputtered diaphragm for crystal-clear vocals. <br> <br> The name says it all but for newbies: Industry standard budget condenser that captures every word without distortion, even yelling in games. Pairs perfect with Streamer.bot TTS integration. Link to <a href=\"https://www.audio-technica.com/en-us/at2020\">official site</a></p>",
-   "logoSource": "https://www.audio-technica.com/content/dam/consumer-products/microphones/at2020/at2020-hero.jpg"
+   "detail": "<p>Cardioid dynamic microphone with USB-C/XLR outputs, 50Hz-15kHz frequency response, 24-bit/192kHz A/D converter, built-in headphone monitoring with volume control, on/off switch. Ideal for podcasting, streaming, and live performance with clear vocal capture and rejection of off-axis noise. Versatile budget dynamic mic perfect for gamers and streamers, handles loud sources without distortion, plug-and-play USB for easy setup with Streamer.bot TTS or OBS. Includes tripod stand and cables (USB-C to USB-C/A, XLR).</p>",
+   "logoSource": "https://www.audio-technica.com/media/catalog/product/cache/177161fc218aa2dd413f2b73f6832b88/a/t/atr2100x-usb_01.png"
  },
  {
    "id": "Asus_TUF_Monitor",
-   "label": "Asus TUF Gaming 24\" 144Hz",
+   "label": "Asus VG249",
    "type": "NonStreaming",
-   "detail": "<p>24\" 1080p VA curved panel, 144Hz refresh, 1ms MPRT, 3000:1 contrast, 178° IPS-like viewing, Flicker-Free, GameVisual modes. <br> <br> Main monitor specs from Asus, simply: Smooth as butter for gaming and OBS preview, high contrast for dark scenes, perfect size for desk setup without overwhelming. <a href=\"https://www.asus.com/displays-desktops/monitors/tuf-gaming/tuf-gaming-vg24vq/\">Details here</a></p>",
-   "logoSource": "https://dlcdnwebimgs.asus.com/gain/8A3C5A5E5D5E4B5E9B5E8A5E5D5E4B5E/asus_tuf_vg24vq.png"
- },
- {
-   "id": "Philips_27_Monitor",
-   "label": "Philips 27\"",
-   "type": "NonStreaming",
-   "detail": "<p>27\" 1080p IPS, 100Hz refresh, 1ms MPRT, LowBlue mode, HDMI/VGA, VESA mountable for chat/monitoring. <br> <br> Second screen for Discord/OBS stats, wide view and eye-friendly. Specs like the 27E1N1100 <a href=\"https://www.philips.co.uk/c-p/27E1N1100D_27/full-hd-lcd-monitor\">here</a></p>",
-   "logoSource": "https://images.philips.com/is/image/PhilipsConsumer/27E1N1100D-27-LED-monitor-27E1N1100D-hero?$QC_P_1100_70$"
+   "detail": "<p>23.8-inch Full HD (1920x1080) IPS panel, 144Hz refresh rate, 1ms (MPRT) response time, Adaptive-Sync (FreeSync Premium), ASUS ELMB for blur reduction, Shadow Boost, GameVisual modes. Ergonomic stand with tilt, swivel, pivot, height adjustment. Budget-friendly 144Hz IPS gaming monitor ideal for competitive gaming like Minecraft or Factorio, smooth gameplay without tearing, wide viewing angles for multi-monitor streaming setups on Linux. Compatible with NVIDIA/AMD GPUs and consoles at 120Hz FHD.</p>",
+   "logoSource": "https://dlcdnwebimgs.asus.com/gain/1f0d4b71-950d-49eb-844b-be154fc55926/w692"
  },
  {
    "id": "VSD_Craft",
    "label": "VSD Craft Stream Deck",
    "type": "Streaming",
-   "detail": "<p>Customizable stream deck alternative with programmable keys, LCD screens on buttons, macros for OBS/Streamer.bot integration. <br> <br> Compact hub for hotkeys, scenes and effects without mouse - way cheaper than Elgato. Check <a href=\"https://vsd.is/products/craft\">VSD site</a></p>",
-   "logoSource": "https://vsd.is/cdn/shop/files/Craft_1.png"
+   "detail": "<p>Customizable stream deck alternative with programmable keys, LCD screens on buttons, macros for OBS/Streamer.bot integration. <br> <br> Compact hub for hotkeys, scenes and effects without mouse - way cheaper than Elgato. However i dont know how much they can be trusted, so precautions are advised. Check <a href=\"https://vsd.is/products/craft\">VSD site</a></p>",
+   "logoSource": ""
  }
 ]

@@ -4,6 +4,7 @@ import Menubar from 'primevue/menubar'
 import { ref } from 'vue'
 
 const items = ref([
+  { label: 'About me', icon: 'pi pi-user', route: '/me' },
   {
     label: 'Nerdzone',
     icon: 'pi pi-microchip',

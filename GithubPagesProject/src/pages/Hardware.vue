@@ -115,7 +115,7 @@ const copyList = async () => {
             <template #content>
               <h2 class="text-3xl Title">{{ value.label }}</h2>
               <Divider type="dashed" />
-              <img
+              <img v-if="value.logoSource != ''"
                 class="float-left max-w-1/6 mt-2 m-1"
                 :src="value.logoSource"
                 :alt="value.label + ' logo image'"
