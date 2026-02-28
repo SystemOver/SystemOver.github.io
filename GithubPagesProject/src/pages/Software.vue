@@ -51,12 +51,16 @@ const copyList = async () => {
 </script>
 
 <template>
-  <div class="grid grid-cols-4 gap-4">
+  <div class="grid grid-cols-1 sm:grid-cols-5 mx-5 sm:mx-0">
     <Toast />
-    <div class="col-span-2 col-start-2">
+    <div class="col-start-1 col-span-1 sm:col-start-2 sm:col-span-3">
       <div class="justify-self-center justify-items-center">
         <p>What kind of</p>
-        <h1 class="text-6xl Title text-shadow-lg text-shadow-green-500 text-inse mb-2 mt-2 hue-spin-hover">Software</h1>
+        <h1
+          class="text-6xl Title text-shadow-lg text-shadow-green-500 text-inse mb-2 mt-2 hue-spin-hover"
+        >
+          Software
+        </h1>
         <p>do i use?</p>
       </div>
       <Divider />
@@ -140,7 +144,6 @@ const copyList = async () => {
 }
 
 .card-glow:hover {
-   @apply shadow-[6px_8px_10px_theme(colors.green.500/0.6)] rounded-xl scale-101 hue-rotate-30;
+  @apply shadow-[6px_8px_10px_theme(colors.green.500/0.6)] rounded-xl scale-101 hue-rotate-30;
 }
-
 </style>

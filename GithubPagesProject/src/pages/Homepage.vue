@@ -3,8 +3,8 @@ import { Card, Divider } from 'primevue'
 </script>
 
 <template>
-  <div class="grid grid-cols-4 gap-4">
-    <div class="col-span-2 col-start-2">
+ <div class="grid grid-cols-1 sm:grid-cols-5 mx-5 sm:mx-0">
+    <div class="col-start-1 col-span-1 sm:col-start-2 sm:col-span-3 ">
       <Card>
         <template #content>
           <p class="justify-self-center text-gray-500">welcome to:</p>
