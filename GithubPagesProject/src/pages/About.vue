@@ -11,8 +11,8 @@ fetch(QAData)
 </script>
 
 <template>
-  <div class="grid grid-cols-4">
-    <div class="col-start-2 col-span-2">
+  <div class="grid grid-cols-1 sm:grid-cols-5 mx-5 sm:mx-0">
+    <div class="col-start-1 col-span-1 sm:col-start-2 sm:col-span-3 ">
       <div class="justify-items-center">
         <p>Who is</p>
         <h1 class="Title hue-spin-hover text-6xl">System?</h1>

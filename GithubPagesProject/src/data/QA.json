@@ -1,22 +1,34 @@
 [
-    {
-        "Question":"What is your Real Name?",
-        "Answer":"<p>For most obvious i wont disclose my real legal Name publicy, but my First Name is: <ul class='list-disc ml-8'><li>Stefan (German)</li><li>Steven / Steve (English)</li><li>Стефан (Bulgarian)</li></ul> <br>However, you can adress me by System, System_over (idk why this one), or anything else that makes sense if you want but i dont really care. <br> <br> PS: Also if you do know my actual full Name, i am kindly asking you to not leak or post it somewhere, since it would put me and my close surroundings into the danger of being harresed, stalked, and who knows what else people do on the Internet. (Also Doxxing someone without their consent, is against Twitch guilines)</p>"
-    },
-    {
-        "Question":"Why 'System_Over'?",
-        "Answer":"<p>The tldr: the extended version of <b>System_Over</b> is <b>System_Overload</b> which represents my 'computerlike thinking' (System) and me not being able to do multiple things at once (Overload). <br> The Name originated when i 'rebranded' myself (i hated my old Gamertag, and yes i am aware that my current one isnt better)</p>"
-    },
-    {
-        "Question":"What Languages do you speak?",
-        "Answer":"<ul class='list-disc ml-8'><li>German</li><li>English</li><li>Bulgarian</li></ul>"
-    },
-    {
-        "Question":"What Socials do you use?",
-        "Answer":"<ul class='list-disc ml-8'><li><a href='https://www.instagram.com/system_over.jpg/'>Instagram</a></li><li><a href='https://www.youtube.com/@System_Over'>Youtube</a></li><li><a href='https://www.twitch.tv/system_over'>Twitch</a></li><li><a href='https://discord.gg/76azaZAX8s'>Discord Server</a></li></ul>"
-    },
-    {
-        "Question":"Do i publish my Software/Scripts",
-        "Answer":"<p>Currently <b>no</b>, since i do not know what the safest approach to publishing it online is. I am not only referring to myself here in the sense of getting hacked, but also for you, because i dont know how to guarantee that the script that you downloaded is actually 'my' script.</p>"
-    }
+  {
+    "Question": "Age, Origin, etc.",
+    "Answer": "<p>Technically i could now write a 700 line long paragraph, like you would find in wikipedia, but instead i will just write a long bullet list, where hopefully most of the common public Facts about me are there. <br> <ul class='list-disc ml-8'><li>I identify as <b>Male</b> and adhere the corrosponding pronouns</li><li>I was born in January of 2005, so my age is the current year minus five.</li> <li>I was born and raised in Vienna, <b>Austria</b>.</li></ul></p>"
+  },
+  {
+    "Question": "What is your Real Name?",
+    "Answer": "<p>For most obvious i wont disclose my real legal Name publicy, but my First Name is: <ul class='list-disc ml-8'><li>Stefan (German)</li><li>Steven / Steve (English)</li><li>Стефан (Bulgarian)</li></ul> <br>However, you can adress me by System, System_over (idk why this one), or anything else that makes sense if you want but i dont really care. <br> <br> PS: Also if you do know my actual full Name, i am kindly asking you to not leak or post it somewhere, since it would put me and my close surroundings into the danger of being harresed, stalked, and who knows what else people do on the Internet. (Also Doxxing someone without their consent, is against Twitch guidelines)</p>"
+  },
+  {
+    "Question": "Why 'System_Over'?",
+    "Answer": "<p>The tldr: the extended version of <b>System_Over</b> is <b>System_Overload</b> which represents my 'computerlike thinking' (System) and me not being able to do multiple things at once (Overload). <br> The Name originated when i 'rebranded' myself (i hated my old Gamertag, and yes i am aware that my current one isnt better)</p>"
+  },
+  {
+    "Question": "What Languages do you speak?",
+    "Answer": "<ul class='list-disc ml-8'><li>German</li><li>English</li><li>Bulgarian</li></ul>"
+  },
+  {
+    "Question": "What do you do outside of Twitch?",
+    "Answer": "<p>Some people might think or believe, that many streamers just stream all day, every day. However i am not one of thosee people, since i mostly do Twitch as a \"Hobby\" in my spare time. Outside of that i study for my bachelor in informatics, watch all kinds of media like youtube, movies, TV shows, animes and especially in the last couple of years i begun reading manga/webtoons (even though i still dont fully know the difference).<br> <br> Apart from that i sometimes code small little projects (like this website for example) and do crafts and Arts. <br> <br> If you follow me on my <a href='https://www.instagram.com/system_over.jpg/'>Instagram</a> account you will also see that i do a lot of photography, which is a hobby i picked up almost 7 or 8 years ago and learned by self-teaching and trail-and-error. "
+  },
+  { 
+    "Question":"Why do you even stream?",
+    "Answer":"<p>Many popular streamers that you know of will proudly say \"YES, i always wanted to stream, it was a passion and blablabla...\" <br>But i am going to be real here, streaming a videogame and just uploading the vod to youtube is millions of times easier than sitting for hours on end to edit a clean, sensical and understandable youtube video. However, if i had to answer the question it would be the following: <br><br> \"I begann streaming right when covid hit and home-schooling became the everyday norm. Since i, a young teenager, had a lot of freetime now and just got my semi-decent first desktop, through the money i earned in my internship, i begann streaming minecraft with no cam, no mic, and no overlays. It was just raw minecraft gameplay, like you would find in a demo-video of the game. Of course, at some point i starded using at least a mic, since on my like 5th. Stream i got my first viewer.<br><br> Nowadays, i mostly stream when i have the time and energy for it and focus mainly on having a good time while being somewhat entertaining. Of course that is not always the case, but i really try to focus not to overdo it and not become a slop machine</p>"
+  },
+  {
+    "Question": "What Socials do you use?",
+    "Answer": "<ul class='list-disc ml-8'><li><a href='https://www.instagram.com/system_over.jpg/'>Instagram</a></li><li><a href='https://www.youtube.com/@System_Over'>Youtube</a></li><li><a href='https://www.twitch.tv/system_over'>Twitch</a></li><li><a href='https://discord.gg/76azaZAX8s'>Discord Server</a></li></ul>"
+  },
+  {
+    "Question": "Do i publish my Software/Scripts?",
+    "Answer": "<p>Currently <b>no</b>, since i do not know what the safest approach to publishing it online is. I am not only referring to myself here in the sense of getting hacked, but also for you, because i dont know how to guarantee that the script that you downloaded is actually 'my' script.</p>"
+  }
 ]
